@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background: #95dada;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px 3px rgba(71, 70, 70, 0.555);
+    padding: 10px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: 0.30s ease-out;
+    text-align: center;
+}
+
+.card-container>img {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    transition: 0.25s ease-in;
+    box-shadow: 3px 4px 8px 3px rgba(172, 170, 170, 0.486);
+}
